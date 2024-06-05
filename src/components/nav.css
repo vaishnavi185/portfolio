@@ -1,19 +1,28 @@
-.me-auto{
+.me-auto {
     font-family: "Purple Purse", serif;
-}
-.nav-link {
-    margin-right: 60px; 
-}
-.nav-link:hover {
-    border-bottom: 3px solid #007bff; /* Change color of dashed line */
-}
+    color: aliceblue;
+  }
+  
+  nav.link {
+    margin-right: 60px;
+    color: aliceblue;
+    /* Removed color white to inherit from parent */
+  }
+  
+  .nav-link:hover {
+    border-bottom: 3px solid #faf8f8; 
+    /* Change color of dashed line */
+    
+  }
+
 .social-icon {
-    margin-left: 30px; /* Space between icons */
-    color: inherit; /* Inherit the text color, you can change this as needed */
-    text-decoration: none;
+    margin-right: 30px; /* Space between icons */
+    color: #faf8f8; /* Set initial text color to white */
+    size: 50px;
 }
 
 .social-icon:hover {
-    color: #007bff; /* Change color on hover */
-    size: 50px;
+   color: #faf8f8;
+   background-color: aliceblue;
+   /* Not sure about this property, as it's not valid CSS */
 }
