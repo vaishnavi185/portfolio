@@ -1,0 +1,16 @@
+.me-auto{
+    font-family: "Purple Purse", serif;
+}
+.nav-link {
+    margin-right: 60px; 
+}
+.social-icon {
+    margin-left: 30px; /* Space between icons */
+    color: inherit; /* Inherit the text color, you can change this as needed */
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+    size: 50px;
+}
