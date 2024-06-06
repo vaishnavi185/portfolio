@@ -7,6 +7,9 @@ export default function Home() {
   
     <div className='body'>
     <NavBar></NavBar>
+
+    <h1>Vaishnavi</h1>
+   
     </div>
     </>
     
