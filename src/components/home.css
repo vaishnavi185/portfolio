@@ -17,4 +17,28 @@
     font-size: 4vw; /* Font size adjusts based on viewport width */
   }
   
-  
+  .content{
+    margin-left: 7%;
+    font-family: "Poppins", sans-serif;
+
+  }
+.services{
+   margin-left: 2%;
+}
+
+.ic1 {
+  width: 30%; /* Set a fixed width */
+  height: 30%; /* Set a fixed height */
+  margin-right: 10px; /* Add some space between the image and the text */
+}
+
+.app {
+
+  display: flex;
+  align-items: center; /* Center the items vertically */
+  margin-left: 1%;
+  column-gap: 1px;
+}
+.p1{
+ font-size: medium;
+}
