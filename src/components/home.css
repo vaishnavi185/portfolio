@@ -1,44 +1,100 @@
 .body {
-    background-image: url('./background.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    position: relative;
-    background-color: rgb(27, 26, 26);
-    color: #f5f5f5;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-   
-    
-  }
-  h1 {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 4vw; /* Font size adjusts based on viewport width */
-  }
-  
-  .content{
-    margin-left: 7%;
-    font-family: "Poppins", sans-serif;
+  background-image: url('./background.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  position: relative;
+  background-color: rgb(27, 26, 26);
+  color: #f5f5f5;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
 
-  }
-.services{
-   margin-left: 2%;
+h1 {
+  text-align: center;
+  font-size: 4vw; /* Font size adjusts based on viewport width */
+}
+
+.content {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.services {
+  margin: 1% 0; /* Reduced margin */
 }
 
 .ic1 {
-  width: 30%; /* Set a fixed width */
-  height: 30%; /* Set a fixed height */
+  width: 20%; /* Use percentage to make it responsive */
+  height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Add some space between the image and the text */
 }
 
 .app {
-
   display: flex;
   align-items: center; /* Center the items vertically */
-  margin-left: 1%;
-  column-gap: 1px;
+  margin-left: 0.4%;
+  margin-bottom: 1rem;
 }
-.p1{
- font-size: medium;
+
+.p1 {
+  font-size: 1rem;
+}
+
+.photo {
+  text-align: center; /* Center the image horizontally */
+}
+
+.pic {
+  width: 100%; /* Make the image responsive */
+  max-width: 100%; /* Ensure it doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the image within its container */
+  margin-top: 2rem; /* Add space at the top */
+}
+
+@media (max-width: 768px) {
+  .ic1 {
+    width: 40%;
+  }
+
+  .app {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .p1 {
+    font-size: 0.9rem;
+  }
+
+  .pic {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem; /* Adjust space at the top for smaller screens */
+  }
+
+  .services {
+    text-align: center;
+    margin: 1% 0; /* Reduced margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .ic1 {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  .content {
+    padding: 0.5rem;
+  }
+
+  .pic {
+    width: 100%;
+    margin-top: 1rem; /* Adjust space at the top for smaller screens */
+  }
 }
