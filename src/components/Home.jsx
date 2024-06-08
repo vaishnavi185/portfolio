@@ -1,70 +1,95 @@
 import React from 'react'
 import './home.css';
 import NavBar from './NavBar';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/esm/Container';
 
+import { experimentalStyled as styled } from '@mui/material/styles';
+import Grid from '@mui/material/Unstable_Grid2';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
 export default function Home() {
+  const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  }));
   return (
     <>
-  
     <div className='body'>
     <NavBar></NavBar>
-    <br></br>
-    <br></br>
-<br></br>
-    <h1>Vaishnavi</h1>
-
-<br></br>
-  
- 
-     <Container className='content'>
-     <Row>
-        <Col>
-        <Container className='services'>
-          <h2>services</h2>
-          <br></br>
+    <br/>
+    
+    <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={5}>
+        
+        </Grid>
+        <Grid item xs={2}>
+        <h1>
+      Vaishnavi
+    </h1>
+        </Grid>
+        <Grid item xs={5}>
+        </Grid>
+      </Grid>
+    </Box>
+    <Box sx={{ flexGrow: 1 } } className =" con">
+      <Grid container spacing={2}>
+        <Grid item xs={4}>
+      <h2>Services</h2>
+      <br></br>
            <div className='app'>
             <img src='.\icon.png'className='ic1'></img>
-            <p className='p1'>App development</p>
+            <h5 className='p1'>App development</h5>
             
            </div>
-           <p className='p2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel molestiae illum, 
+           <p className='p2'>I am a App frontend <br/>developer (using flutter).
             </p>
             <br></br>
             <div className='app'>
 
             <img src='.\icon2.png'className='ic1'></img>
-            <p className='p1'>web development</p>
+            <h5 className='p1'>Web devlopment</h5>
             
            </div>
-           <p className='p2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel molestiae illum, 
+           <p className='p2'>I am web developer <br/>Mern stack,js,html,css.
             </p>
             <br></br>
             <div className='app'>
 
             <img src='.\icon3.png'className='ic1'></img>
-            <p className='p1'>  DataBase</p>
+            <h5 className='p1'>Database</h5>
           </div>
-           <p className='p2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel molestiae illum, 
-            </p>
+          <h6 className='p2'>Database <br/>Mysql,Mongodb.
+            </h6>
+        </Grid>
+        <Grid item xs={4}>
+      <div className='photo-con'>
+           <img src='./Frame 481716.png' className='frame'></img>
+      </div>
+        </Grid>
+        <Grid item xs={4}>
+          <div className='about'>
+            <h4>⭐Proficient in Frontend and MERN Stack</h4>
+            <br></br><br></br>
+            <p className='p9'>
+    <span>Hi 👋, I'm Vaishnavi,</span> a <span>MERN Stack Developer</span>,<span> Frontend Developer</span>, and <span>Database Creator</span>.<br></br><br></br>
+  I specialize in creating beautiful, functional frontend designs and efficient databases. Welcome to my world of innovative web solutions and captivating user experiences!
+</p>
+<br></br>
+<span>2 years</span>
+<p className='p00'>  Expirence</p>
 
-        </Container>
-        </Col>
-        <Col>
-        <div className='photo'>
-          <img src='.\Frame 481716.png' className='pic'></img>
 
-        </div>
-        </Col>
-        <Col>3 of 3</Col>
-      </Row>
-     </Container>
-      
-    
-   
+          </div>
+          <br></br>
+          <button className='cv' type='open'>Get My CV</button>
+        </Grid>
+      </Grid>
+    </Box>
     </div>
+    
     </>
     
   )

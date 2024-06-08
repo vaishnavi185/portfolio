@@ -1,32 +1,37 @@
 .body {
   background-image: url('./background.png'); 
-  background-size: cover; 
+  background-size:cover; 
   background-repeat: no-repeat; 
-  position: relative;
   background-color: rgb(27, 26, 26);
   color: #f5f5f5;
-  min-height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  font-family: "Poppins", sans-serif;
+  /* height: 580px;
+  width: 100%; */
+  font-family: "Poppins" ,serif ;
 }
 
-h1 {
-  text-align: center;
-  font-size: 4vw; /* Font size adjusts based on viewport width */
-}
+h1{
+  font-size: 5vw;
+ margin-left: 0%;
+ margin-top: 5%;
+  border-bottom: 6px solid white;
+  /* position: absolute; */
+  /* width: 90px; */
+  font-family: "Poppins" ,serif ;
+ }
 
 .content {
   margin: 0 auto;
   padding: 1rem;
 }
-
+.con{
+  padding: 2%;
+}
 .services {
-  margin: 1% 0; /* Reduced margin */
+  margin: 1% 0 0 ; /* Reduced margin */
 }
 
 .ic1 {
-  width: 20%; /* Use percentage to make it responsive */
+  width: 13%; /* Use percentage to make it responsive */
   height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Add some space between the image and the text */
 }
@@ -37,9 +42,13 @@ h1 {
   margin-left: 0.4%;
   margin-bottom: 1rem;
 }
-
+.p2{
+  font-family: "Quattrocento" ,serif ;
+  font-size: 1.6vw;
+}
 .p1 {
-  font-size: 1rem;
+  font-size: 1.6vw;
+  font-family: "Oswald" ,sans-serif ;
 }
 
 .photo {
@@ -54,7 +63,7 @@ h1 {
   margin-top: 2rem; /* Add space at the top */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .ic1 {
     width: 40%;
   }
@@ -71,12 +80,12 @@ h1 {
   .pic {
     width: 90%;
     margin: 0 auto;
-    margin-top: 1rem; /* Adjust space at the top for smaller screens */
+    margin-top: 1rem; 
   }
 
   .services {
     text-align: center;
-    margin: 1% 0; /* Reduced margin for smaller screens */
+    margin: 1% 0; 
   }
 }
 
@@ -95,6 +104,42 @@ h1 {
 
   .pic {
     width: 100%;
-    margin-top: 1rem; /* Adjust space at the top for smaller screens */
-  }
+    margin-top: 1rem; 
+} */
+
+.frame {
+  height: 1%;
+  width: 80%;
+  margin-top: 30%;
+  margin-left: 5%;
+}
+
+h4{
+  margin-left: 2%;
+
+}
+
+.p9{
+  margin-top: 4%;
+}
+
+span{
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.cv{
+  font-family: "Poppins" ,serif;
+  border-radius: 6.8%;
+  padding: 2%;
+  background-color: black;
+  border: none;
+  opacity: 80%;
+  width: 30%;
+  color: #f2eeee;
+}
+.cv:hover{
+  border: 2px solid white;
+}
+.p00{
+  font-size: 1.4em;
 }
