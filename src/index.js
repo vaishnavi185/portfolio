@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
 import Strips from './components/Strips';
+import Service from './components/Service';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
    <div className='b'>
    <Home></Home>
 <Strips></Strips>
+<Service></Service>
    </div>
   
    

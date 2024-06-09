@@ -1,0 +1,103 @@
+.im5 {
+    height: fit-content;
+    width: 100%;
+}
+
+.servo {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    z-index: 1;
+    position: relative;
+    color: white;
+    background-image: url('./bg2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.h4 {
+    text-align: center;
+    color: #03DAC6;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.h5 {
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 100;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    column-gap: 2%;
+    padding: 20px 0;
+}
+
+.Box {
+    background: #03DAC6;
+    height: 380px;
+    width: 30%;
+    display: inline-block;
+    border-radius: 3%;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 20px; /* Add margin to separate rows */
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .Box {
+        width: 45%; /* Adjust width for larger screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .Box {
+        width: 45%; /* Adjust width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .Box {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+
+.im0 {
+    width: 17%;
+    height: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.head {
+    margin-left: 5%;
+    color: #000;
+    font-weight: 700;
+    margin-top: 6%;
+    font-family: "Work Sans", sans-serif;
+}
+
+p {
+    margin-left: 5%;
+    color: #000;
+    font-weight: 400;
+    margin-top: 6%;
+    font-family: "Work Sans", sans-serif;
+}
+
+.f {
+    margin-left: 5%;
+    color: #000;
+    font-weight: 400;
+    margin-top: 6%;
+    font-family: "Work Sans", sans-serif;
+}

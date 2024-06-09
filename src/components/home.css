@@ -45,6 +45,8 @@ h1{
 .p2{
   font-family: "Quattrocento" ,serif ;
   font-size: 1.6vw;
+  color: #f2eeee;
+  margin-left: 2%;
 }
 .p1 {
   font-size: 1.6vw;
@@ -121,11 +123,15 @@ h4{
 
 .p9{
   margin-top: 4%;
+  color: #f2eeee;
 }
 
-span{
+.s{
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 1.8em;
+  color: #f2eeee;
+  margin-left: 4%;
+
 }
 .cv{
   font-family: "Poppins" ,serif;
@@ -142,4 +148,5 @@ span{
 }
 .p00{
   font-size: 1.4em;
+  color: #f2eeee;
 }

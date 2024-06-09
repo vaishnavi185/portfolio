@@ -1,0 +1,36 @@
+.whit {
+    padding: 1.8%;
+    width: 100%;
+    background-color: rgb(238, 228, 228);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10%;
+}
+
+@media (max-width: 1200px) {
+    .whit {
+        column-gap: 8%;
+    }
+}
+
+@media (max-width: 992px) {
+    .whit {
+        column-gap: 6%;
+        padding: 1%;
+    }
+}
+
+@media (max-width: 768px) {
+    .whit {
+        column-gap: 4%;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 576px) {
+    .whit {
+        flex-direction: column;
+        row-gap: 3%;
+        padding: 4%;
+    }
+}

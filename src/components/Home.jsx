@@ -74,11 +74,11 @@ export default function Home() {
             <h4>⭐Proficient in Frontend and MERN Stack</h4>
             <br></br><br></br>
             <p className='p9'>
-    <span>Hi 👋, I'm Vaishnavi,</span> a <span>MERN Stack Developer</span>,<span> Frontend Developer</span>, and <span>Database Creator</span>.<br></br><br></br>
+    <span className='s'>Hi 👋, I'm Vaishnavi,</span> a <span className='s'>MERN Stack Developer</span>,<span className='s'> Frontend Developer</span>, and <span className='s'>Database Creator</span>.<br></br><br></br>
   I specialize in creating beautiful, functional frontend designs and efficient databases. Welcome to my world of innovative web solutions and captivating user experiences!
 </p>
 <br></br>
-<span>2 years</span>
+<span className='s'>2 years</span>
 <p className='p00'>  Expirence</p>
 
 
