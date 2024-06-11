@@ -33,7 +33,7 @@ h1{
 .ic1 {
   width: 13%; /* Use percentage to make it responsive */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add some space between the image and the text */
+  margin-right: 2px; /* Add some space between the image and the text */
 }
 
 .app {
@@ -46,11 +46,12 @@ h1{
   font-family: "Quattrocento" ,serif ;
   font-size: 1.6vw;
   color: #f2eeee;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 .p1 {
   font-size: 1.6vw;
   font-family: "Oswald" ,sans-serif ;
+  margin-left: 1.3%;
 }
 
 .photo {
@@ -124,21 +125,25 @@ h4{
 .p9{
   margin-top: 4%;
   color: #f2eeee;
+  margin-left: 2%;
+  font-size: 1.5em;
+  font-family: "Quattrocento" ,serif ;
 }
 
 .s{
-  font-weight: 600;
-  font-size: 1.8em;
-  color: #f2eeee;
-  margin-left: 4%;
+  font-weight: 300;
+
+  color: #BB86FC;
+
 
 }
 .cv{
-  font-family: "Poppins" ,serif;
+  font-family: "Quattrocento" ,serif ;
   border-radius: 6.8%;
   padding: 2%;
-  background-color: black;
+  background-color: #303030;
   border: none;
+  font-size: medium;
   opacity: 80%;
   width: 30%;
   color: #f2eeee;
@@ -147,6 +152,14 @@ h4{
   border: 2px solid white;
 }
 .p00{
-  font-size: 1.4em;
+  font-size: 2.1em;
   color: #f2eeee;
+  margin-left: 2%;
+  font-family: "Oswald" ,sans-serif ;
+}
+.s1{
+  font-size: 2.1em;
+  font-family: "Oswald" ,sans-serif ;
+  margin-left: 2%;
+
 }

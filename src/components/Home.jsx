@@ -40,16 +40,16 @@ export default function Home() {
       <h2>Services</h2>
       <br></br>
            <div className='app'>
-            <img src='.\icon.png'className='ic1'></img>
+            <img src='.\1one.png'className='ic1'></img>
             <h5 className='p1'>App development</h5>
             
            </div>
            <p className='p2'>I am a App frontend <br/>developer (using flutter).
             </p>
-            <br></br>
+            <br/>
             <div className='app'>
 
-            <img src='.\icon2.png'className='ic1'></img>
+            <img src='.\2one.png'className='ic1'></img>
             <h5 className='p1'>Web devlopment</h5>
             
            </div>
@@ -58,7 +58,7 @@ export default function Home() {
             <br></br>
             <div className='app'>
 
-            <img src='.\icon3.png'className='ic1'></img>
+            <img src='.\3rd.png'className='ic1'></img>
             <h5 className='p1'>Database</h5>
           </div>
           <h6 className='p2'>Database <br/>Mysql,Mongodb.
@@ -71,14 +71,14 @@ export default function Home() {
         </Grid>
         <Grid item xs={4}>
           <div className='about'>
-            <h4>⭐Proficient in Frontend and MERN Stack</h4>
+            <h4>Proficient in Frontend and MERN Stack</h4>
             <br></br><br></br>
             <p className='p9'>
-    <span className='s'>Hi 👋, I'm Vaishnavi,</span> a <span className='s'>MERN Stack Developer</span>,<span className='s'> Frontend Developer</span>, and <span className='s'>Database Creator</span>.<br></br><br></br>
-  I specialize in creating beautiful, functional frontend designs and efficient databases. Welcome to my world of innovative web solutions and captivating user experiences!
+            Hi I'm <span className='s'>Vaishnavi</span> .A Front-end   and Mern stack Developer .
+            I am a 2nd year CSE student with a keen interest in the front-end development. I love to create visually appealing and informative designs. Welcome!! to my small world of the internet......
 </p>
 <br></br>
-<span className='s'>2 years</span>
+<span className='s1'>2 years</span>
 <p className='p00'>  Expirence</p>
 
 
