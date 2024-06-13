@@ -1,17 +1,15 @@
-import React from 'react';
-import './strip.css';
-
-export default function Strips() {
-  return (
-    <div className='whit'>
-      <i className="fa-brands fa-react" style={{ color: '#c1bebe', fontSize: '80px' }}></i>
-     <i className='fa-solid fa-database' style={{ color: '#c1bebe', fontSize: '80px' }}></i>
-     <i className="fa-brands fa-html5" style={{ color: '#c1bebe', fontSize: '80px' }}/>
-     <i className="fa-brands fa-css3-alt" style={{ color: '#c1bebe', fontSize: '80px' }} />
-     <i className="fa-brands fa-js" style={{ color: '#c1bebe', fontSize: '80px' }} />
-     <i className="fa-brands fa-java" style={{ color: '#c1bebe', fontSize: '80px' }} />
-     <i className="fa-brands fa-python" style={{ color: '#c1bebe', fontSize: '80px' }} />
-
+import React from 'react'
+import "./strip.css"
+export default function Service() {
+  return (<>
+  <div className='strip'>
+        <img src="./react.png" className='img1' alt="reactlogo"></img>
+        <img src="./figma.png" className='img1' alt="figma"></img>
+        <img src="./python.png" className='img1' alt="photoshop"></img>
+        <img src="./nodejs.png" className='img1' alt="nodejs"></img>
+        <img src="./flutter.png" className='img1' alt="flutter"></img>
     </div>
-  );
+  </>
+    
+  )
 }
