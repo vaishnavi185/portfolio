@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Strips from './components/Strips';
 import Service from './components/Service';
 import Recent from './components/Recent';
+import  UncontrolledExample from './components/Crosel'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
 <Strips></Strips>
 <Service></Service>
 <Recent></Recent>
+< UncontrolledExample></UncontrolledExample>
    </div>
   
    
