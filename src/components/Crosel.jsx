@@ -1,86 +1,68 @@
+// CarouselComponent.js
 import React from 'react';
-import { Carousel, Card, Row, Col } from 'react-bootstrap';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
-const ImageCarousel = () => {
-    return (
-        <Carousel>
-            <Carousel.Item>
-                <Row>
-                    <Col>
-                        <Card className="text-center">
-                            <Card.Img variant="top" src="purple.jpg" alt="First slide" />
-                            <Card.Body>
-                                <Card.Title>First Slide Label</Card.Title>
-                                <Card.Text>
-                                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className="text-center">
-                            <Card.Img variant="top" src="image2.jpg" alt="Second slide" />
-                            <Card.Body>
-                                <Card.Title>Second Slide Label</Card.Title>
-                                <Card.Text>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className="text-center">
-                            <Card.Img variant="top" src="image3.jpg" alt="Third slide" />
-                            <Card.Body>
-                                <Card.Title>Third Slide Label</Card.Title>
-                                <Card.Text>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Row>
-                    <Col>
-                        <Card className="text-center">
-                            <Card.Img variant="top" src="image4.jpg" alt="Fourth slide" />
-                            <Card.Body>
-                                <Card.Title>Fourth Slide Label</Card.Title>
-                                <Card.Text>
-                                    Donec ullamcorper nulla non metus auctor fringilla.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className="text-center">
-                            <Card.Img variant="top" src="image5.jpg" alt="Fifth slide" />
-                            <Card.Body>
-                                <Card.Title>Fifth Slide Label</Card.Title>
-                                <Card.Text>
-                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card className="text-center">
-                            <Card.Img variant="top" src="image6.jpg" alt="Sixth slide" />
-                            <Card.Body>
-                                <Card.Title>Sixth Slide Label</Card.Title>
-                                <Card.Text>
-                                    Vestibulum id ligula porta felis euismod semper.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-            </Carousel.Item>
-            {/* Add more Carousel.Items as needed */}
-        </Carousel>
-    );
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 3,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
 };
 
-export default ImageCarousel;
+const items = [
+  {
+    img: 'https://via.placeholder.com/300',
+    content: 'Item 1',
+  },
+  {
+    img: 'https://via.placeholder.com/300',
+    content: 'Item 2',
+  },
+  {
+    img: 'https://via.placeholder.com/300',
+    content: 'Item 3',
+  },
+  {
+    img: 'https://via.placeholder.com/300',
+    content: 'Item 4',
+  },
+  {
+    img: 'https://via.placeholder.com/300',
+    content: 'Item 5',
+  },
+];
+
+const CarouselComponent = () => {
+  return (
+    <Carousel
+      responsive={responsive}
+      ssr={true} // means to render carousel on server-side.
+      infinite={true}
+      keyBoardControl={true}
+      containerClass="carousel-container"
+      itemClass="carousel-item-padding-40-px"
+    >
+      {items.map((item, index) => (
+        <div key={index} style={{ padding: '1px' }}>
+          <img src={item.img} alt={`Slide ${index}`} style={{ width: '60%' }} />
+          <p>{item.content}</p>
+        </div>
+      ))}
+    </Carousel>
+  );
+};
+
+export default CarouselComponent;

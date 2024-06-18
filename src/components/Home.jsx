@@ -67,6 +67,7 @@ export default function Home() {
         <Grid item xs={4}>
       <div className='photo-con'>
            <img src='./Frame 481716.png' className='frame'></img>
+           <img src='./self.png' className='frame-2'></img>
       </div>
         </Grid>
         <Grid item xs={4}>

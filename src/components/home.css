@@ -111,10 +111,9 @@ h1{
 } */
 
 .frame {
-  height: 1%;
-  width: 80%;
   margin-top: 30%;
-  margin-left: 5%;
+  width:100%;
+  height: auto;
 }
 
 h4{
@@ -162,4 +161,13 @@ h4{
   font-family: "Oswald" ,sans-serif ;
   margin-left: 2%;
 
+}
+.frame-2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%; /* Adjust the width as needed */
+  height: auto;
+  z-index: 1;
 }

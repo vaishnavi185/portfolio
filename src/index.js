@@ -16,7 +16,7 @@ root.render(
 <Strips></Strips>
 <Service></Service>
 <Recent></Recent>
-< UncontrolledExample></UncontrolledExample>
+
    </div>
   
    
