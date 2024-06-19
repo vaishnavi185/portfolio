@@ -1,6 +1,7 @@
 import React from 'react';
 import './rec.css';
-import  CarouselComponent from './Crosel'
+
+import Crosel from './Crosel';
 
 export default function Recent() {
   return (
@@ -18,7 +19,8 @@ export default function Recent() {
           <h4>APP</h4>
         </div>
       </div>
-      < CarouselComponent></CarouselComponent>
+      <Crosel></Crosel>
+      
       <img src='./Image.png' alt='Recent work'className='im9'></img>
     </div>
   );
