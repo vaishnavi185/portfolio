@@ -7,7 +7,7 @@ export default function Crosel() {
      
       <div className='card'>
         <div className='im3'>
-          <img src='./nani.png' alt='Description' />
+          <img src='./pizza.jpeg' alt='Description' />
         </div>
         <div className='content'>
           <h2>PIZZA</h2>
@@ -29,15 +29,15 @@ export default function Crosel() {
       </div>
       <div className='card'>
         <div className='im3'>
-          <img src='./quize.png' alt='Description' />
+          <img src='./room.png' alt='Description' />
         </div>
         <div className='content'>
-          <h2>QUIZE-APP</h2>
-          <p>An interactive web-based quiz application built with JavaScript, HTML, and CSS. Features a variety of questions on different topics, real-time score counting, and instant feedback. Users can start a new quiz, track their scores, and challenge themselves with progressively harder questions. Perfect for learning and fun!
+          <h2>LaMica-Desgien</h2>
+          <p>Create a stunning bedroom with our HTML and CSS-based home interior design web page. Explore modern layouts, color schemes, and furniture arrangements. Customize your space with interactive design tools and get inspired by stylish decor ideas. Perfect for homeowners looking to transform their bedrooms into cozy, elegant retreats. Start designing your dream bedroom today!
 
 </p>
           <br></br>
-          <span>Github: <a href='https://github.com/vaishnavi185/quize' target='_blank' rel='noopener noreferrer'>https://github.com/vaishnavi185/quize</a></span>
+          <span>Github: <a href='https://github.com/vaishnavi185/lamica-desgien' target='_blank' rel='noopener noreferrer'>https://github.com/vaishnavi185/lamica-desgien</a></span>
         </div>
       </div>
     </div>

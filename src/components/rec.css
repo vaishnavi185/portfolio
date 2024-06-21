@@ -20,8 +20,7 @@
     border-radius: 5px;
     margin: 0 auto; /* Center horizontally */
     display: flex;
-    justify-content: center; /* Center items */
-    align-items: center; /* Center items */
+    column-gap: 10px;
     flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
     padding: 10px; /* Add padding for spacing */
   }
@@ -30,60 +29,40 @@
     height: 30px;
     background-color: #03dac6;
     border-radius: 6px;
-    margin: 10px; /* Adjust margin for spacing */
+    padding: 17px;
+    margin-left: 10px;
+    margin-top: 4px;
     color: black;
     text-align: center;
     font-family: "Roboto", sans-serif;
     display: inline-flex; /* Display inline flex */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    white-space: nowrap; /* Prevent wrapping text inside */
-    padding: 0 15px; /* Add padding to give space */
+    
   }
   
   .tab {
     height: 30px;
-    
+    margin-left: 10px;
+    margin-top: 8px;
     border-radius: 6px;
-    margin: 10px; /* Adjust margin for spacing */
+  
     color: rgb(244, 241, 241);
-    text-align: center;
+   
     font-family: "Roboto", sans-serif;
     display: inline-flex; /* Display inline flex */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    white-space: nowrap; /* Prevent wrapping text inside */
-    padding: 0 15px; /* Add padding to give space */
+   
+   
   }
-  .imo, .im9 {
-    width: 80%;
-    max-width: 50px; /* Limit maximum width */
-    height: auto; /* Allow height to adjust */
-    margin-top: 10px; /* Adjust top margin */
-    margin-left: auto; /* Align to the right */
-  }
+.imo{
+  width: 20%;
+  margin-left:80% ;
+  position:absolute;
   
+}
   
-  /* Media Queries for Responsive Design */
-  @media (max-width: 768px) {
-    .tabs {
-      width: 90%; /* Adjust width for smaller screens */
-      margin-left: auto; /* Center horizontally */
-      margin-right: auto;
-    }
-    
-    .tab1,
-    .tab {
-      width: auto; /* Let content dictate width */
-      margin: 10px; /* Adjust margin */
-    }
-  
-    
-    .imo, .im9 {
-      width: 5%; /* Adjust width */
-      max-width: 100px; /* Adjust maximum width */
-      margin-left: auto; /* Align to the right */
-      margin-right: 10px; /* Adjust right margin */
-    }
-  }
-  
+.im9{
+  width: 20%;
+ position: relative;
+}
+ 

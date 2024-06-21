@@ -16,9 +16,16 @@ export default function Recent() {
         </div>
         <div className='tab'>
           <h4>Website</h4>
-          <h4>APP</h4>
+        
+         
+        </div>
+        <div className='tab'>
+          <h4>App</h4>
+        
+         
         </div>
       </div>
+      <br></br>
       <Crosel></Crosel>
       
       <img src='./Image.png' alt='Recent work'className='im9'></img>
