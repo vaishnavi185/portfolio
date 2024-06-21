@@ -150,6 +150,20 @@ h4{
 .cv:hover{
   border: 2px solid white;
 }
+@media (max-width: 768px) {
+  .cv {
+    width: 50%;
+    font-size: small;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .cv {
+    width: 70%;
+    font-size: smaller;
+  }
+}
 .p00{
   font-size: 2.1em;
   color: #f2eeee;
