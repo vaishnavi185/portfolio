@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Strips from './components/Strips';
 import Service from './components/Service';
 import Recent from './components/Recent';
+import Contact from './components/Contact';
 import  UncontrolledExample from './components/Crosel'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,7 @@ root.render(
 <Strips></Strips>
 <Service></Service>
 <Recent></Recent>
-
+<Contact></Contact>
    </div>
   
    

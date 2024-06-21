@@ -1,0 +1,101 @@
+.cont{
+    background-color:black;
+    width: 100%;
+    min-height: 1000px; /* Use min-height to ensure content fits */
+    overflow: hidden; /* Prevent overflow */
+    padding: 20px 0; 
+
+  
+}
+.h2{
+   text-align: center;
+   margin-top: 5%;
+   color: rgb(245, 245, 245);
+   font-family: "Roboto", sans-serif;
+}
+.fname{
+    background:transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 50%;
+    margin-left: 29%;
+    margin-top: 10%;
+}
+.mname{
+    background:transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 75%;
+    margin-left: 14%;
+    margin-top: 15%;
+
+}
+.send{
+    background-color: #9747FF;
+    border: none;
+    color: #fff;
+    padding: 1.5%;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 69%;
+}
+.cost{
+    background-color:#181717;
+    width: 100%;
+    min-height: 400px; /* Use min-height to ensure content fits */
+    overflow: hidden; /* Prevent overflow */
+    padding: 4px 0; 
+
+}
+.hh{
+    text-align: center;
+   margin-top: 5%;
+   color: rgb(245, 245, 245);
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+}
+.iconss {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    margin-top: 5%;
+    column-gap: 2rem; /* Adjust gap between icons */
+  }
+  
+  .ii {
+    font-size: 2.5rem; /* Increase the icon size */
+    color: #fff;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  
+  .ii:hover {
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .iconss {
+      column-gap: 1rem; /* Decrease gap between icons on smaller screens */
+    }
+  
+    .ii {
+      font-size: 2rem; /* Decrease icon size on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .iconss {
+      flex-direction: column; /* Stack icons vertically on very small screens */
+      align-items: center;
+      row-gap: 1rem; /* Gap between icons in vertical layout */
+    }
+  
+    .ii {
+      font-size: 1.8rem; /* Further decrease icon size on very small screens */
+    }
+  }
+  .hhj{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+  
