@@ -14,6 +14,19 @@ export default function Home() {
     textAlign: 'center',
     color: theme.palette.text.secondary,
   }));
+  const fileurl ='http://localhost:3000/Resume (5).pdf'
+
+  const downloadFile = (url) => {
+    const aTag = document.createElement('a');
+    const filename = url.split('/').pop();
+    aTag.href = url;
+    aTag.setAttribute('download', filename);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
+  
+
   return (
     <>
     <div className='body'>
@@ -85,7 +98,7 @@ export default function Home() {
 
           </div>
           <br></br>
-          <button className='cv' type='open'>Get My CV</button>
+          <button className='cv' type='button' onClick={()=>{downloadFile(fileurl)}}>Get My CV</button>
         </Grid>
       </Grid>
     </Box>
