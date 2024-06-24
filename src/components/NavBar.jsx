@@ -5,15 +5,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../components/Nav.css';
-
+import Home from './Home'
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav className="me-auto">
-        <Nav.Link href="#home" className='nav-link' style={{ color: 'white', marginRight:"60px" }}>Home</Nav.Link>
-          <Nav.Link href="#service" className='nav-link'style={{ color: 'white', marginRight:"60px" }}>Services</Nav.Link>
+        <Nav.Link href="Home" className='nav-link' style={{ color: 'white', marginRight:"60px" }}>Home</Nav.Link>
+          <Nav.Link href="Service" className='nav-link'style={{ color: 'white', marginRight:"60px" }}>Services</Nav.Link>
           <Nav.Link href="#portfolio" className='nav-link'style={{ color: 'white', marginRight:"60px" }}>Portfolio</Nav.Link>
           <Nav.Link href="#testimonials" className='nav-link'style={{ color: 'white', marginRight:"60px" }}>Testimonials</Nav.Link>
           <Nav.Link href="#blogs" className='nav-link'style={{ color: 'white' , marginRight:"60px"}}>Blogs</Nav.Link>
